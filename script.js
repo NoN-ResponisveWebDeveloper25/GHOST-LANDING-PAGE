@@ -20,6 +20,10 @@
     document.querySelector(".rtopin").style.filter="none"
     document.querySelector(".rtopin").style.backgroundImage="url(https://i.pinimg.com/originals/ae/b5/2f/aeb52f40ecf9d7b01da4860e74068e97.gif)"
     document.querySelector(".rbright").style.filter="darken"
+    document.querySelector(".rbleft").style.backgroundColor="transparent"
+    document.querySelector(".rbright").style.backgroundColor="transparent"
+    document.querySelector(".rbleft").style.border="1px solid white"
+    document.querySelector(".rbright").style.border="1px solid white"
     flag=0
    }
    else{
@@ -35,6 +39,11 @@
     document.querySelector(".lefttwo").style.color="black"
     document.querySelector("#ctwo").style.color="black"
     document.querySelector("#bone").style.border="none"
+
+    document.querySelector(".rbleft").style.backgroundColor="rgb(245, 149, 165)"
+    document.querySelector(".rbright").style.backgroundColor="rgb(212, 212, 119)"
+    document.querySelector(".rbleft").style.border="none"
+    document.querySelector(".rbright").style.border="none"
     // document.querySelector(".rtopin").style.filter="invert()"
     
     flag=1

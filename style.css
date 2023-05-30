@@ -203,6 +203,7 @@ html,body
     border-radius:2rem;
     background-color: rgb(212, 212, 119);
     /* filter:brightness(.9) */
+    transition:all .5s ease-in-out;
 
 }
 .rtopin{
