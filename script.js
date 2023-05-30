@@ -75,6 +75,7 @@ tl.from(".open>h1",{
 .from(".open",{
     top:"0%",
     duration:1,
+    delay:1,
     ease:Circ.easeIn
 })
 
